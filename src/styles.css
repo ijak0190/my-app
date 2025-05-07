@@ -1,0 +1,219 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+.navbar-logo {
+  height: 40px;
+}
+.navbar-links {
+  display: flex;
+  gap: 32px;
+}
+.navbar-link {
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Hero Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px 60px 20px;
+  background: #f7fafe;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  gap: 60px;
+}
+.hero-content {
+  max-width: 500px;
+  text-align: left;
+}
+.hero-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #2e2e2e;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+.hero-desc {
+  font-size: 18px;
+  color: #808080;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+}
+
+/* WhyUs Styles */
+.whyus {
+  background: #fff;
+  padding: 80px 20px;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  text-align: center;
+}
+.whyus-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #18191f;
+  margin-bottom: 24px;
+}
+.whyus-desc {
+  font-size: 18px;
+  color: #18191f;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.8;
+}
+
+/* Pricing Styles */
+.pricing {
+  background: #fff;
+  padding: 80px 20px;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  text-align: center;
+}
+.pricing-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #18191f;
+  margin-bottom: 24px;
+}
+.pricing-desc {
+  font-size: 18px;
+  color: #18191f;
+  margin-bottom: 40px;
+}
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.pricing-plan {
+  background: #f7fafe;
+  border-radius: 16px;
+  padding: 32px 24px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.pricing-plan-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.pricing-plan-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #b00000;
+  margin-bottom: 16px;
+}
+
+/* Testimonials Styles */
+.testimonials {
+  background: #fff;
+  padding: 80px 20px;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  text-align: center;
+}
+.testimonials-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #18191f;
+  margin-bottom: 24px;
+}
+.testimonials-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.testimonial-item {
+  background: #f7fafe;
+  border-radius: 16px;
+  padding: 32px 24px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.testimonial-text {
+  font-size: 16px;
+  color: #2e2e2e;
+  margin-bottom: 12px;
+}
+.testimonial-author {
+  font-size: 15px;
+  color: #808080;
+}
+
+/* CTA Styles */
+.cta {
+  background: #f7fafe;
+  padding: 80px 20px;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  text-align: center;
+  border-radius: 16px;
+  margin: 40px 0;
+}
+.cta-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2e2e2e;
+  margin-bottom: 32px;
+}
+.cta-btn {
+  background: #b00000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.3);
+  transition: background 0.2s;
+}
+.cta-btn:hover {
+  background: #900000;
+}
+
+/* Footer Styles */
+footer {
+  background: #fff;
+  padding: 40px 0 24px 0;
+  text-align: center;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  color: #808080;
+  font-size: 16px;
+  border-top: 1px solid #eee;
+}
+
+.main-content {
+  padding-top: 88px; /* 네비게이션 높이만큼 여백 */
+}
