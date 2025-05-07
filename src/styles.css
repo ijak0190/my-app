@@ -68,9 +68,61 @@ html {
     flex-direction: column;
     gap: 32px;
     text-align: center;
+    padding: 60px 8px 32px 8px;
   }
   .hero-content {
     text-align: center;
+    max-width: 100%;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+  .hero-img {
+    max-width: 90vw;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 16px 8px;
+    gap: 12px;
+  }
+  .navbar-links {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .main-content {
+    padding-top: 120px;
+  }
+  .pricing-table,
+  .testimonials-list {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .pricing-plan,
+  .testimonial-item {
+    min-width: 0;
+    width: 90vw;
+    max-width: 400px;
+  }
+  .pricing-title,
+  .testimonials-title,
+  .whyus-title,
+  .cta-title {
+    font-size: 32px;
+  }
+  .cta {
+    padding: 40px 8px;
+    margin: 24px 0;
+  }
+  .whyus {
+    padding: 40px 8px;
+  }
+  .pricing {
+    padding: 40px 8px;
+  }
+  .testimonials {
+    padding: 40px 8px;
   }
 }
 
